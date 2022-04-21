@@ -1,10 +1,12 @@
 
 const adviceID = document.querySelector("#adviceID")
 const adviceText = document.querySelector("#adviceText")
+const adviceBtn = document.querySelector("#adviceBtn")
 
 const url = "https://api.adviceslip.com/advice";
 
 window.onload = getAdvice
+adviceBtn.onclick = getAdvice
 
 function getAdvice() {
   fetch(url)

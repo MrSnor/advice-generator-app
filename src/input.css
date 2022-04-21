@@ -1,11 +1,31 @@
 @tailwind base;
 @tailwind components;
+
+button#adviceBtn {
+  user-select: none;
+  transform: scale(1);
+  -webkit-box-shadow: 0;
+  -moz-box-shadow: 0;
+  box-shadow: 0;
+  transition: all 150ms ease-in-out;
+}
+
+button#adviceBtn:active {
+  transform: scale(1.2);
+  -webkit-box-shadow: 0px 0px 20px 3px rgba(0, 168, 84, 1);
+  -moz-box-shadow: 0px 0px 20px 3px rgba(0, 168, 84, 1);
+  box-shadow: 0px 0px 20px 3px rgba(0, 168, 84, 1);
+}
+
+button>img {
+  user-select: none;
+}
+
 @tailwind utilities;
 
 
 @layer base {
   body {
     font-family: 'Manrope', sans-serif;
-    /* font-size: 28px; */
   }
 }
