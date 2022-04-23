@@ -523,10 +523,6 @@ button>img {
   height: 400px;
 }
 
-.h-full {
-  height: 100%;
-}
-
 .min-h-screen {
   min-height: 100vh;
 }
@@ -535,16 +531,22 @@ button>img {
   min-height: 200px;
 }
 
-.w-10\/12 {
-  width: 83.333333%;
+.w-7\/12 {
+  width: 58.333333%;
 }
 
 .w-16 {
   width: 4rem;
 }
 
-.w-7\/12 {
-  width: 58.333333%;
+.max-w-min {
+  max-width: -webkit-min-content;
+  max-width: -moz-min-content;
+  max-width: min-content;
+}
+
+.max-w-\[400px\] {
+  max-width: 400px;
 }
 
 .place-content-center {
@@ -600,6 +602,16 @@ button>img {
   padding: 1rem;
 }
 
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -626,10 +638,6 @@ button>img {
 
   .sm\:hidden {
     display: none;
-  }
-
-  .sm\:w-8\/12 {
-    width: 66.666667%;
   }
 
   .sm\:w-full {
