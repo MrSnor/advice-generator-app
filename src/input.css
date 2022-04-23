@@ -19,6 +19,7 @@ button#adviceBtn:active {
 
 button>img {
   user-select: none;
+  pointer-events: none;
 }
 
 @tailwind utilities;

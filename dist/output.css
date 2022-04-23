@@ -492,6 +492,7 @@ button>img {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
+  pointer-events: none;
 }
 
 .mx-auto {
@@ -531,18 +532,8 @@ button>img {
   min-height: 200px;
 }
 
-.w-7\/12 {
-  width: 58.333333%;
-}
-
 .w-16 {
   width: 4rem;
-}
-
-.max-w-min {
-  max-width: -webkit-min-content;
-  max-width: -moz-min-content;
-  max-width: min-content;
 }
 
 .max-w-\[400px\] {
@@ -602,11 +593,6 @@ button>img {
   padding: 1rem;
 }
 
-.py-5 {
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
-}
-
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
@@ -638,9 +624,5 @@ button>img {
 
   .sm\:hidden {
     display: none;
-  }
-
-  .sm\:w-full {
-    width: 100%;
   }
 }
